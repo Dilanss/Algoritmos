@@ -1,0 +1,65 @@
+/* AGREGAR TIPOGRAFIA */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@600&family=Inter:wght@300&family=Italianno&family=Josefin+Sans:wght@100&family=Playpen+Sans:wght@500&display=swap');
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../IMG/saad-chaudhry-3ZcdVNcnobc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+
+}
+
+section {
+    width: 90%;
+    max-width: 1350px;
+    margin: 8% auto;
+    border: 1px solid rgb(252, 0, 0);
+    background: rgb(105, 103, 103);
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+button {
+    background: transparent;
+    border: 2px solid aqua;
+    padding: 12px 30px;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(217, 255, 0);
+    border-radius: 20px;
+    transition: 1s;
+}
